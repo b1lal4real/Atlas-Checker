@@ -1,0 +1,9 @@
+{
+  "botToken": "Discord Bot token",
+  "userToken": "Account token",
+  "prefix": "+",
+  "fullcheckCommand": "fullcheck",
+  "topmaCommand": "topma",
+  "allowedUserIDs": ["id of who can use the bot"]
+
+}
