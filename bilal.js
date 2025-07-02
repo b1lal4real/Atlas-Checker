@@ -1,1 +1,414 @@
-function a0_0x5df3(_0x463bbb,_0x8db48d){const _0x330880=a0_0x3308();return a0_0x5df3=function(_0x5df383,_0x35860d){_0x5df383=_0x5df383-0xc7;let _0x23ec60=_0x330880[_0x5df383];return _0x23ec60;},a0_0x5df3(_0x463bbb,_0x8db48d);}function a0_0x3308(){const _0x1a45c8=['Yes','slice','premiumSince','permissions','setTimestamp','Sorted\x20by\x20number\x20of\x20users\x20currently\x20in\x20voice\x20channels.','joinedTimestamp','setTitle','setDescription','👥\x20**Voice\x20Users:**\x20**','next','None','PRIMARY','🔊\x20Top\x2010\x20Voice\x20Servers','includes','displayAvatarURL','794572scbaeI','setDisabled',':F>','split','message','uncaughtException','catch','No\x20roles','createMessageComponentCollector','author','✅\x20Bot\x20client\x20ready\x20as\x20','tag','❌\x20Usage:\x20`','#FF4C4C','edit','**ID:**\x20`','6EymdRw','\x20<userID>`','973990GnEnHW','❌\x20The\x20user\x20is\x20not\x20in\x20any\x20shared\x20servers.','error','setStyle','values','add','users','9jsVHvX','Page\x20','404885DifgwM','guilds','channels','sort','./config.json','addField','discord.js-selfbot-v13','\x0a**Admin:**\x20','iconURL','\x0a**Owner:**\x20','\x0a**ID:**\x20`','ownerId','1334753HRsERE','setCustomId','https://i.imgur.com/AfFp7pu.png','GUILD_VOICE','setThumbnail','ready','customId','has','22dlJAZP','push','❌\x20The\x20specified\x20user\x20was\x20not\x20found.','❌\x20Error\x20fetching\x20voice\x20data:','count','❌\x20Error:','3revOaE','roles','name','size','\x0a**Joined:**\x20<t:','trim','🎧\x20Fetching\x20voice\x20stats...','fetch','GUILD_MESSAGES','discord.js','members','Failed\x20to\x20delete\x20message:','addComponents','setLabel','361840aQYelX','once','ADMINISTRATOR','prev','send','filter','3oiyPXU','**#','\x0a**Booster:**\x20','unhandledRejection','6011232oSsQQv','startsWith','GUILDS','length','collect','➡️\x20Next','❌\x20An\x20error\x20occurred\x20while\x20fetching\x20voice\x20stats.','GUILD_VOICE_STATES','setColor','channel','**\x20','🎭\x20Roles\x20&\x20Status','user','log','setFooter','icon','join','bot','floor','346858oxVtzz','⬅️\x20Previous','**Roles:**\x20','FLAGS','end','forEach','cache'];a0_0x3308=function(){return _0x1a45c8;};return a0_0x3308();}const a0_0x3e4ba5=a0_0x5df3;(function(_0x28b689,_0x3b718a){const _0x476c8f=a0_0x5df3,_0x5ab229=_0x28b689();while(!![]){try{const _0x14137a=-parseInt(_0x476c8f(0x102))/0x1*(parseInt(_0x476c8f(0x12d))/0x2)+-parseInt(_0x476c8f(0x116))/0x3*(parseInt(_0x476c8f(0xcd))/0x4)+-parseInt(_0x476c8f(0xe8))/0x5*(-parseInt(_0x476c8f(0xdd))/0x6)+parseInt(_0x476c8f(0xf4))/0x7+-parseInt(_0x476c8f(0x110))/0x8*(-parseInt(_0x476c8f(0xe6))/0x9)+parseInt(_0x476c8f(0xdf))/0xa*(parseInt(_0x476c8f(0xfc))/0xb)+parseInt(_0x476c8f(0x11a))/0xc;if(_0x14137a===_0x3b718a)break;else _0x5ab229['push'](_0x5ab229['shift']());}catch(_0x599234){_0x5ab229['push'](_0x5ab229['shift']());}}}(a0_0x3308,0x47b3a));const {Client,Intents,MessageEmbed,MessageActionRow,MessageButton}=require(a0_0x3e4ba5(0x10b)),{Client:UserClient}=require(a0_0x3e4ba5(0xee)),config=require(a0_0x3e4ba5(0xec)),{botToken,userToken,prefix,fullcheckCommand,topmaCommand,allowedUserIDs}=config,botClient=new Client({'intents':[Intents[a0_0x3e4ba5(0x130)][a0_0x3e4ba5(0x11c)],Intents[a0_0x3e4ba5(0x130)][a0_0x3e4ba5(0x10a)],Intents[a0_0x3e4ba5(0x130)][a0_0x3e4ba5(0x121)]]}),userClient=new UserClient();botClient['once']('ready',()=>{const _0x6a4426=a0_0x3e4ba5;console[_0x6a4426(0x127)](_0x6a4426(0xd7)+botClient['user'][_0x6a4426(0xd8)]);}),userClient[a0_0x3e4ba5(0x111)](a0_0x3e4ba5(0xf9),()=>{const _0x32b5e8=a0_0x3e4ba5;console[_0x32b5e8(0x127)]('✅\x20User\x20client\x20ready\x20as\x20'+userClient[_0x32b5e8(0x126)][_0x32b5e8(0xd8)]);}),process['on'](a0_0x3e4ba5(0x119),console[a0_0x3e4ba5(0xe1)]),process['on'](a0_0x3e4ba5(0xd2),console[a0_0x3e4ba5(0xe1)]),botClient['login'](botToken),userClient['login'](userToken),botClient['on'](a0_0x3e4ba5(0xd1),async _0x5189d2=>{const _0x4f2a86=a0_0x3e4ba5;if(_0x5189d2[_0x4f2a86(0xd6)][_0x4f2a86(0x12b)]||!_0x5189d2['content'][_0x4f2a86(0x11b)](prefix))return;const _0x356bbf=_0x5189d2['content'][_0x4f2a86(0x135)](prefix[_0x4f2a86(0x11d)])[_0x4f2a86(0x107)]()[_0x4f2a86(0xd0)](/\s+/),_0x5d5054=_0x356bbf[0x0]['toLowerCase']();if(!allowedUserIDs[_0x4f2a86(0xcb)](_0x5189d2[_0x4f2a86(0xd6)]['id']))return _0x5189d2[_0x4f2a86(0x123)][_0x4f2a86(0x114)]('❌\x20You\x20do\x20not\x20have\x20permission\x20to\x20use\x20this\x20command.');if(_0x5d5054===fullcheckCommand){if(!_0x356bbf[0x1])return _0x5189d2['channel'][_0x4f2a86(0x114)](_0x4f2a86(0xd9)+prefix+fullcheckCommand+_0x4f2a86(0xde));const _0x4ef354=_0x356bbf[0x1];try{const _0xc88dbb=await userClient[_0x4f2a86(0xe5)][_0x4f2a86(0x109)](_0x4ef354)[_0x4f2a86(0xd3)](()=>null);if(!_0xc88dbb)return _0x5189d2['channel'][_0x4f2a86(0x114)](_0x4f2a86(0xfe));const _0x5d2783=[];for(const _0x586c20 of userClient['guilds']['cache'][_0x4f2a86(0xe3)]()){const _0x20aa23=await _0x586c20[_0x4f2a86(0x10c)]['fetch'](_0x4ef354)[_0x4f2a86(0xd3)](()=>null);if(!_0x20aa23)continue;const _0x4fbcb4=_0x20aa23[_0x4f2a86(0x103)][_0x4f2a86(0x133)]['map'](_0x5afca9=>_0x5afca9[_0x4f2a86(0x104)])[_0x4f2a86(0x12a)](',\x20')||_0x4f2a86(0xd4),_0x5ae971=_0x586c20[_0x4f2a86(0xf3)]===_0x4ef354?_0x4f2a86(0x134):'No',_0x347c56=_0x20aa23[_0x4f2a86(0x137)][_0x4f2a86(0xfb)](_0x4f2a86(0x112))?_0x4f2a86(0x134):'No',_0x2ba123=_0x20aa23[_0x4f2a86(0x136)]?_0x4f2a86(0x134):'No',_0x1acaf5=new MessageEmbed()[_0x4f2a86(0x13b)](_0x586c20[_0x4f2a86(0x104)])[_0x4f2a86(0xf8)](_0x586c20['iconURL']({'dynamic':!![]})||_0x4f2a86(0xf6))[_0x4f2a86(0xed)]('📌\x20Guild\x20Info','**Name:**\x20'+_0x586c20[_0x4f2a86(0x104)]+_0x4f2a86(0xf2)+_0x586c20['id']+'`',![])[_0x4f2a86(0xed)]('👤\x20User\x20Info',_0x4f2a86(0xdc)+_0xc88dbb['id']+'`\x0a**Nickname:**\x20'+(_0x20aa23['nickname']||_0x4f2a86(0xc8))+_0x4f2a86(0x106)+Math[_0x4f2a86(0x12c)](_0x20aa23[_0x4f2a86(0x13a)]/0x3e8)+_0x4f2a86(0xcf),![])[_0x4f2a86(0xed)](_0x4f2a86(0x125),_0x4f2a86(0x12f)+_0x4fbcb4+_0x4f2a86(0xf1)+_0x5ae971+_0x4f2a86(0xef)+_0x347c56+_0x4f2a86(0x118)+_0x2ba123,![])[_0x4f2a86(0x128)](_0x4f2a86(0xe7)+(_0x5d2783[_0x4f2a86(0x11d)]+0x1),botClient[_0x4f2a86(0x126)][_0x4f2a86(0xcc)]())[_0x4f2a86(0x138)]();_0x5d2783[_0x4f2a86(0xfd)](_0x1acaf5);}if(_0x5d2783[_0x4f2a86(0x11d)]===0x0)return _0x5189d2[_0x4f2a86(0x123)][_0x4f2a86(0x114)](_0x4f2a86(0xe0));let _0x4af521=0x0;const _0x1dd273=new MessageActionRow()[_0x4f2a86(0x10e)](new MessageButton()[_0x4f2a86(0xf5)](_0x4f2a86(0x113))['setLabel'](_0x4f2a86(0x12e))[_0x4f2a86(0xe2)](_0x4f2a86(0xc9))['setDisabled'](!![]),new MessageButton()['setCustomId'](_0x4f2a86(0xc7))[_0x4f2a86(0x10f)](_0x4f2a86(0x11f))[_0x4f2a86(0xe2)](_0x4f2a86(0xc9))['setDisabled'](_0x5d2783[_0x4f2a86(0x11d)]===0x1)),_0x2de4e0=await _0x5189d2[_0x4f2a86(0x123)]['send']({'embeds':[_0x5d2783[_0x4af521]],'components':[_0x1dd273]});let _0x4d5aae;const _0x52197e=()=>{clearTimeout(_0x4d5aae),_0x4d5aae=setTimeout(async()=>{const _0x585dbd=a0_0x5df3;try{await _0x2de4e0['delete']();}catch(_0x45f9ce){console[_0x585dbd(0xe1)](_0x585dbd(0x10d),_0x45f9ce);}},0xea60);};_0x52197e();const _0x12544e=_0x4e36f9=>_0x4e36f9[_0x4f2a86(0x126)]['id']===_0x5189d2[_0x4f2a86(0xd6)]['id']&&_0x4e36f9[_0x4f2a86(0xd1)]['id']===_0x2de4e0['id'],_0x5a7c02=_0x2de4e0[_0x4f2a86(0xd5)]({'filter':_0x12544e,'time':0xea60});_0x5a7c02['on'](_0x4f2a86(0x11e),async _0x2c4ed0=>{const _0x17f06d=_0x4f2a86;await _0x2c4ed0['deferUpdate']();if(_0x2c4ed0[_0x17f06d(0xfa)]===_0x17f06d(0x113))_0x4af521--;else{if(_0x2c4ed0[_0x17f06d(0xfa)]===_0x17f06d(0xc7))_0x4af521++;}const _0x26d637=new MessageActionRow()[_0x17f06d(0x10e)](new MessageButton()['setCustomId'](_0x17f06d(0x113))[_0x17f06d(0x10f)](_0x17f06d(0x12e))[_0x17f06d(0xe2)](_0x17f06d(0xc9))[_0x17f06d(0xce)](_0x4af521===0x0),new MessageButton()[_0x17f06d(0xf5)](_0x17f06d(0xc7))['setLabel'](_0x17f06d(0x11f))[_0x17f06d(0xe2)]('PRIMARY')[_0x17f06d(0xce)](_0x4af521===_0x5d2783[_0x17f06d(0x11d)]-0x1));await _0x2de4e0[_0x17f06d(0xdb)]({'embeds':[_0x5d2783[_0x4af521]],'components':[_0x26d637]}),_0x52197e();}),_0x5a7c02['on'](_0x4f2a86(0x131),()=>{const _0x1df677=_0x4f2a86;clearTimeout(_0x4d5aae),_0x2de4e0[_0x1df677(0xdb)]({'components':[]})[_0x1df677(0xd3)](()=>{});});}catch(_0x4768c6){console['error'](_0x4f2a86(0x101),_0x4768c6),_0x5189d2['channel'][_0x4f2a86(0x114)]('❌\x20An\x20error\x20occurred\x20while\x20processing\x20the\x20command.');}}else{if(_0x5d5054===topmaCommand){await _0x5189d2[_0x4f2a86(0x123)][_0x4f2a86(0x114)](_0x4f2a86(0x108));try{const _0x24959d=[];for(const _0xafea42 of userClient[_0x4f2a86(0xe9)][_0x4f2a86(0x133)]['values']()){let _0x50eaac=new Set();const _0x328160=_0xafea42[_0x4f2a86(0xea)][_0x4f2a86(0x133)][_0x4f2a86(0x115)](_0x47ee2c=>_0x47ee2c['type']===_0x4f2a86(0xf7));for(const _0x19f005 of _0x328160[_0x4f2a86(0xe3)]()){_0x19f005[_0x4f2a86(0x10c)][_0x4f2a86(0x132)](_0x253e97=>{const _0x3c6967=_0x4f2a86;!_0x253e97['user'][_0x3c6967(0x12b)]&&!_0x253e97[_0x3c6967(0x126)]['bot']&&_0x50eaac[_0x3c6967(0xe4)](_0x253e97['id']);});}_0x50eaac[_0x4f2a86(0x105)]>0x0&&_0x24959d[_0x4f2a86(0xfd)]({'name':_0xafea42[_0x4f2a86(0x104)],'count':_0x50eaac[_0x4f2a86(0x105)],'icon':_0xafea42[_0x4f2a86(0xf0)]({'dynamic':!![]})||'https://i.imgur.com/8nO6QZy.png'});}_0x24959d[_0x4f2a86(0xeb)]((_0x1056dd,_0x2ad390)=>_0x2ad390[_0x4f2a86(0x100)]-_0x1056dd[_0x4f2a86(0x100)]);const _0x30608c=_0x24959d[_0x4f2a86(0x135)](0x0,0xa);if(_0x30608c[_0x4f2a86(0x11d)]===0x0)return _0x5189d2['channel'][_0x4f2a86(0x114)]('❌\x20No\x20servers\x20found\x20with\x20active\x20voice\x20users.');const _0x287d27=new MessageEmbed()['setTitle'](_0x4f2a86(0xca))[_0x4f2a86(0x13c)](_0x4f2a86(0x139))[_0x4f2a86(0x122)](_0x4f2a86(0xda))[_0x4f2a86(0xf8)](_0x30608c[0x0][_0x4f2a86(0x129)])[_0x4f2a86(0x138)]();_0x30608c[_0x4f2a86(0x132)]((_0x23c0f9,_0x10464c)=>{const _0x2e1fc8=_0x4f2a86;_0x287d27[_0x2e1fc8(0xed)](_0x2e1fc8(0x117)+(_0x10464c+0x1)+_0x2e1fc8(0x124)+_0x23c0f9[_0x2e1fc8(0x104)],_0x2e1fc8(0x13d)+_0x23c0f9[_0x2e1fc8(0x100)]+'**',![]);}),_0x287d27[_0x4f2a86(0x128)]({'text':'Requested\x20by\x20'+_0x5189d2[_0x4f2a86(0xd6)][_0x4f2a86(0xd8)],'iconURL':_0x5189d2[_0x4f2a86(0xd6)][_0x4f2a86(0xcc)]()}),await _0x5189d2[_0x4f2a86(0x123)]['send']({'embeds':[_0x287d27]});}catch(_0x2ce82d){console[_0x4f2a86(0xe1)](_0x4f2a86(0xff),_0x2ce82d),_0x5189d2[_0x4f2a86(0x123)][_0x4f2a86(0x114)](_0x4f2a86(0x120));}}}});
+const {
+  Client,
+  Intents,
+  MessageEmbed,
+  MessageActionRow,
+  MessageButton,
+  MessageAttachment
+} = require('discord.js');
+const { Client: UserClient } = require('discord.js-selfbot-v13');
+const config = require('./config.json');
+
+// Destructure config values
+const {
+  botToken,
+  userToken,
+  prefix,
+  fullcheckCommand,
+  topmaCommand,
+  allowedUserIDs
+} = config;
+
+// Create Clients
+const botClient = new Client({
+  intents: [
+    Intents.FLAGS.GUILDS,
+    Intents.FLAGS.GUILD_MESSAGES,
+    Intents.FLAGS.GUILD_VOICE_STATES,
+  ],
+});
+const userClient = new UserClient();
+
+// Ready Events
+botClient.once('ready', () => {
+  console.log(`✅ Bot client ready as ${botClient.user.tag}`);
+});
+
+userClient.once('ready', () => {
+  console.log(`✅ User client ready as ${userClient.user.tag}`);
+});
+
+// Handle Unhandled Rejections
+process.on('unhandledRejection', console.error);
+process.on('uncaughtException', console.error);
+
+// Login
+botClient.login(botToken);
+userClient.login(userToken);
+
+// Command Handler
+botClient.on('message', async (message) => {
+  if (message.author.bot || !message.content.startsWith(prefix)) return;
+
+  const args = message.content.slice(prefix.length).trim().split(/\s+/);
+  const cmd = args[0].toLowerCase();
+
+  // Permission Check
+  if (!allowedUserIDs.includes(message.author.id)) {
+    return message.channel.send('❌ You do not have permission to use this command.');
+  }
+
+  // Handle Commands
+  if (cmd === fullcheckCommand) {
+    // fullcheck command
+    if (!args[1]) {
+      return message.channel.send(`❌ Usage: \`${prefix}${fullcheckCommand} <userID>\``);
+    }
+
+    const userID = args[1];
+    try {
+      const targetUser = await userClient.users.fetch(userID).catch(() => null);
+      if (!targetUser) return message.channel.send('❌ The specified user was not found.');
+
+      const embeds = [];
+
+      for (const guild of userClient.guilds.cache.values()) {
+        const member = await guild.members.fetch(userID).catch(() => null);
+        if (!member) continue;
+
+        const roles = member.roles.cache.map(r => r.name).join(', ') || 'No roles';
+        const isOwner = guild.ownerId === userID ? 'Yes' : 'No';
+        const isAdmin = member.permissions.has('ADMINISTRATOR') ? 'Yes' : 'No';
+        const isBooster = member.premiumSince ? 'Yes' : 'No';
+
+        const embed = new MessageEmbed()
+          .setTitle(guild.name)
+          .setThumbnail(guild.iconURL({ dynamic: true }) || 'https://i.imgur.com/AfFp7pu.png') 
+          .addField('📌 Guild Info', `**Name:** ${guild.name}\n**ID:** \`${guild.id}\``, false)
+          .addField('👤 User Info', `**ID:** \`${targetUser.id}\`\n**Nickname:** ${member.nickname || 'None'}\n**Joined:** <t:${Math.floor(member.joinedTimestamp / 1000)}:F>`, false)
+          .addField('🎭 Roles & Status', `**Roles:** ${roles}\n**Owner:** ${isOwner}\n**Admin:** ${isAdmin}\n**Booster:** ${isBooster}`, false)
+          .setFooter(`Page ${embeds.length + 1}`, botClient.user.displayAvatarURL())
+          .setTimestamp();
+
+        embeds.push(embed);
+      }
+
+      if (embeds.length === 0) {
+        return message.channel.send('❌ The user is not in any shared servers.');
+      }
+
+      let page = 0;
+      const row = new MessageActionRow().addComponents(
+        new MessageButton().setCustomId('prev').setLabel('⬅️ Previous').setStyle('PRIMARY').setDisabled(true),
+        new MessageButton().setCustomId('next').setLabel('➡️ Next').setStyle('PRIMARY').setDisabled(embeds.length === 1)
+      );
+
+      const botMsg = await message.channel.send({ embeds: [embeds[page]], components: [row] });
+
+      // Set up timeout reference
+      let deleteTimeout;
+
+      const resetTimeout = () => {
+        clearTimeout(deleteTimeout);
+        deleteTimeout = setTimeout(async () => {
+          try {
+            await botMsg.delete();
+          } catch (err) {
+            console.error('Failed to delete message:', err);
+          }
+        }, 60000); // 60 seconds
+      };
+
+      resetTimeout(); // Start initial timeout
+
+      const filter = i => i.user.id === message.author.id && i.message.id === botMsg.id;
+      const collector = botMsg.createMessageComponentCollector({ filter, time: 60000 });
+
+      collector.on('collect', async interaction => {
+        await interaction.deferUpdate();
+        if (interaction.customId === 'prev') page--;
+        else if (interaction.customId === 'next') page++;
+
+        const newRow = new MessageActionRow().addComponents(
+          new MessageButton().setCustomId('prev').setLabel('⬅️ Previous').setStyle('PRIMARY').setDisabled(page === 0),
+          new MessageButton().setCustomId('next').setLabel('➡️ Next').setStyle('PRIMARY').setDisabled(page === embeds.length - 1)
+        );
+
+        await botMsg.edit({ embeds: [embeds[page]], components: [newRow] });
+        resetTimeout(); // Restart timeout after interaction
+      });
+
+      collector.on('end', () => {
+        clearTimeout(deleteTimeout); // Stop timeout when collector ends
+        botMsg.edit({ components: [] }).catch(() => {});
+      });
+
+    } catch (err) {
+      console.error('❌ Error:', err);
+      message.channel.send('❌ An error occurred while processing the command.');
+    }
+  }
+
+  else if (cmd === topmaCommand) {
+    // topma command
+    await message.channel.send('🎧 Generating voice stats image...');
+  
+    try {
+        const { createCanvas, loadImage } = require('canvas');
+        const guildsData = [];
+      
+        for (const guild of userClient.guilds.cache.values()) {
+            let voiceMembers = new Set();
+          
+            const voiceChannels = guild.channels.cache.filter(ch => ch.type === 'GUILD_VOICE');
+          
+            for (const channel of voiceChannels.values()) {
+                channel.members.forEach(member => {
+                    if (!member.user.bot) {
+                        voiceMembers.add(member.id);
+                    }
+                });
+            }
+          
+            if (voiceMembers.size > 0) {
+                guildsData.push({
+                    name: guild.name,
+                    count: voiceMembers.size,
+                    icon: guild.iconURL({ format: 'png', size: 256 }) || 'https://i.imgur.com/AfFp7pu.png'
+                });
+            }
+        }
+      
+        // Sort by voice member count descending
+        guildsData.sort((a, b) => b.count - a.count);
+      
+        // Take top 10
+        const top10 = guildsData.slice(0, 10);
+      
+        if (top10.length === 0) {
+            return message.channel.send('❌ No servers found with active voice users.');
+        }
+      
+        // Canvas setup
+        const canvasWidth = 900;
+        const rowHeight = 100;
+        const headerHeight = 180;
+        const footerHeight = 50;
+        const canvasHeight = headerHeight + (top10.length * rowHeight) + footerHeight;
+        
+        const canvas = createCanvas(canvasWidth, canvasHeight);
+        const ctx = canvas.getContext('2d');
+        
+        // Create background with galaxy effect
+        ctx.fillStyle = '#0a0a18';
+        ctx.fillRect(0, 0, canvasWidth, canvasHeight);
+        
+        // Draw stars
+        ctx.fillStyle = '#ffffff';
+        for (let i = 0; i < 200; i++) {
+            const x = Math.random() * canvasWidth;
+            const y = Math.random() * canvasHeight;
+            const radius = Math.random() * 1.5;
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2);
+            ctx.fill();
+        }
+        
+        // Draw nebula effect
+        const nebula = ctx.createRadialGradient(
+            canvasWidth / 2, 
+            headerHeight / 3, 
+            50,
+            canvasWidth / 2, 
+            headerHeight / 3, 
+            400
+        );
+        nebula.addColorStop(0, 'rgba(105, 90, 166, 0.8)');
+        nebula.addColorStop(1, 'rgba(10, 10, 24, 0)');
+        ctx.fillStyle = nebula;
+        ctx.beginPath();
+        ctx.arc(canvasWidth / 2, headerHeight / 3, 400, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Header with glowing text
+        ctx.shadowColor = '#8f94fb';
+        ctx.shadowBlur = 15;
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 50px "Arial"';
+        ctx.textAlign = 'center';
+        ctx.fillText("TOP VOICE MA", canvasWidth/2, 80);
+        
+        ctx.font = 'bold 36px "Arial"';
+        ctx.fillText("made by Yumeko", canvasWidth/2, 130);
+        
+        // Remove shadow for other elements
+        ctx.shadowBlur = 0;
+        
+        // Create header decoration
+        ctx.strokeStyle = '#8f94fb';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(canvasWidth/2 - 200, 150);
+        ctx.lineTo(canvasWidth/2 - 50, 150);
+        ctx.moveTo(canvasWidth/2 + 200, 150);
+        ctx.lineTo(canvasWidth/2 + 50, 150);
+        ctx.stroke();
+        
+        // Server entries with animated gradient effect
+        let y = headerHeight;
+        
+        for (let i = 0; i < top10.length; i++) {
+            const guild = top10[i];
+            
+            // Create entry background with gradient
+            const entryGradient = ctx.createLinearGradient(0, y, 0, y + rowHeight);
+            entryGradient.addColorStop(0, 'rgba(79, 84, 200, 0.2)');
+            entryGradient.addColorStop(1, 'rgba(10, 10, 24, 0)');
+            ctx.fillStyle = entryGradient;
+            ctx.fillRect(0, y, canvasWidth, rowHeight);
+            
+            // Rank badge with special design for top 3
+            const rankX = 80;
+            const rankY = y + rowHeight/2;
+            const rankRadius = 35;
+            
+            // Special badges for top 3
+            if (i < 3) {
+                const rankColors = [
+                    ['#FFD700', '#D4AF37'], // Gold
+                    ['#C0C0C0', '#A9A9A9'], // Silver
+                    ['#CD7F32', '#8C6B46']  // Bronze
+                ];
+                
+                const rankGradient = ctx.createRadialGradient(
+                    rankX, rankY, 0,
+                    rankX, rankY, rankRadius
+                );
+                rankGradient.addColorStop(0, rankColors[i][0]);
+                rankGradient.addColorStop(1, rankColors[i][1]);
+                
+                ctx.beginPath();
+                ctx.arc(rankX, rankY, rankRadius, 0, Math.PI * 2);
+                ctx.fillStyle = rankGradient;
+                ctx.fill();
+                
+                // Add shine effect
+                ctx.beginPath();
+                ctx.arc(rankX - rankRadius/3, rankY - rankRadius/3, rankRadius/3, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+                ctx.fill();
+            } else {
+                // Standard badge for others
+                const rankGradient = ctx.createRadialGradient(
+                    rankX, rankY, 0,
+                    rankX, rankY, rankRadius
+                );
+                rankGradient.addColorStop(0, '#8f94fb');
+                rankGradient.addColorStop(1, '#4e54c8');
+                
+                ctx.beginPath();
+                ctx.arc(rankX, rankY, rankRadius, 0, Math.PI * 2);
+                ctx.fillStyle = rankGradient;
+                ctx.fill();
+            }
+            
+            // Rank number
+            ctx.fillStyle = '#ffffff';
+            ctx.font = 'bold 26px "Arial"';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(`#${i+1}`, rankX, rankY);
+            
+            // Server icon with border
+            try {
+                const icon = await loadImage(guild.icon);
+                const iconSize = 70;
+                const iconX = 160;
+                const iconY = y + (rowHeight - iconSize)/2;
+                
+                // Draw circular border
+                ctx.beginPath();
+                ctx.arc(iconX + iconSize/2, iconY + iconSize/2, iconSize/2 + 3, 0, Math.PI * 2);
+                ctx.fillStyle = '#4e54c8';
+                ctx.fill();
+                
+                // Circular mask
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(iconX + iconSize/2, iconY + iconSize/2, iconSize/2, 0, Math.PI * 2);
+                ctx.closePath();
+                ctx.clip();
+                
+                // Draw icon
+                ctx.drawImage(icon, iconX, iconY, iconSize, iconSize);
+                ctx.restore();
+            } catch (err) {
+                console.error('Error loading server icon:', err);
+                // Draw placeholder
+                ctx.fillStyle = '#4e54c8';
+                ctx.beginPath();
+                ctx.arc(160 + 35, y + 50, 35, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            
+            // Server name with gradient
+            const nameGradient = ctx.createLinearGradient(250, y, 250, y + rowHeight);
+            nameGradient.addColorStop(0, '#ffffff');
+            nameGradient.addColorStop(0.7, '#8f94fb');
+            
+            ctx.fillStyle = nameGradient;
+            ctx.font = 'bold 30px "Arial"';
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'middle';
+            
+            // Truncate long server names
+            let displayName = guild.name;
+            const maxLength = 25;
+            if (displayName.length > maxLength) {
+                displayName = displayName.substring(0, maxLength) + '...';
+            }
+            
+            ctx.fillText(displayName, 250, y + rowHeight/2);
+            
+            // Voice count - REMOVED ICON, JUST NUMBER
+            ctx.fillStyle = '#8f94fb';
+            ctx.font = 'bold 36px "Arial"';
+            ctx.textAlign = 'right';
+            ctx.fillText(`${guild.count}`, canvasWidth - 70, y + rowHeight/2);
+            
+            // Separator with glow effect
+            if (i < top10.length - 1) {
+                ctx.shadowColor = '#8f94fb';
+                ctx.shadowBlur = 5;
+                ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.moveTo(50, y + rowHeight);
+                ctx.lineTo(canvasWidth - 50, y + rowHeight);
+                ctx.stroke();
+                ctx.shadowBlur = 0;
+            }
+            
+            y += rowHeight;
+        }
+        
+        // Footer
+        ctx.fillStyle = 'rgba(143, 148, 251, 0.7)';
+        ctx.font = 'italic 22px "Arial"';
+        ctx.textAlign = 'center';
+        ctx.fillText('Generated by Yumeko • Voice Activity Tracker', canvasWidth/2, canvasHeight - 25);
+        
+        // Convert to buffer and send
+        const buffer = canvas.toBuffer('image/png');
+        const attachment = new MessageAttachment(buffer, 'top_voice_ma.png');
+        message.channel.send({ 
+            content: '**TOP VOICE MA STATISTICS**',
+            files: [attachment] 
+        });
+      
+    } catch (err) {
+        console.error('❌ Error generating voice stats image:', err);
+        message.channel.send('❌ An error occurred while generating the voice stats image.');
+    }
+}
+});
